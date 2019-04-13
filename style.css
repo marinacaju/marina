@@ -1,0 +1,71 @@
+
+body{
+
+  font-family: 'Fjalla One'; sans-serif;
+  font-size: 36px;
+  text-align: center;
+  background: #D5B9B2;
+  margin: 0;
+}
+
+h1{
+	font-size: 80px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+p{
+	font-size: 26px;
+}
+
+a{
+	text-decoration: none;
+	color: #F0B67F;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+img:hover {
+	opacity: 0.5;
+}
+
+img{
+	width: 230px;
+}
+
+#case:hover {
+	transition: #shinny; 
+}
+
+#banner{
+  text-align: center;
+  color: black;
+  background-image: url("https://images.pexels.com/photos/1863851/pexels-photo-1863851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: 100% 30%;
+   position: relative;
+   padding: 60px;
+}
+
+#button{
+	background-color: #847996;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -57px;
+}
+
+#finalbox{
+	background-color: #DDDBF1;
+	 background-size: cover;
+}
+
+}
